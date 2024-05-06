@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 
 samples = 100
 
-# ui^(1) and ui^(2) are independent samples from the Unif([0,1]) distribution
+# ui^(1) and ui^(2) are independent samples from 
+# the Unif([0,1]) distribution
 u1 = np.random.uniform(0, 1, samples)
 u2 = np.random.uniform(0, 1, samples)
 
@@ -15,4 +16,5 @@ plt.hist(x, bins=20, alpha=0.7)
 plt.xlabel('Value')
 plt.ylabel('Frequency')
 plt.title('Histogram of Variable X')
-plt.show()
+plt.savefig('p2q2.png')
+

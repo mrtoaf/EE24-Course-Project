@@ -19,6 +19,6 @@ plt.xlabel('Value')
 plt.ylabel('Frequency')
 plt.title('Histogram of Exponential Distribution Samples')
 plt.legend()
-plt.show()
+plt.savefig('p2q1.png')
 
 
