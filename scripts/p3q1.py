@@ -40,3 +40,5 @@ for i, n in enumerate(n_values):
 
 plt.tight_layout()
 plt.savefig('p3q1.png')
+
+
